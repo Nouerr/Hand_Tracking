@@ -1,0 +1,1 @@
+This project is dedicated to the development of a real-time hand tracking system. Utilizing advanced computer vision techniques and machine learning algorithms, we aim to accurately track hand movements and gestures
