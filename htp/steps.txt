@@ -1,0 +1,19 @@
+
+step 1:
+
+    >>	pip3 intall opencv-python
+    >>	pip3 intall mediapipe
+
+step2: 
+    >>  code camera activation :
+ 		
+	import cv2
+	capture=cv2.VideoCapture(id_camera)      //0--> camera laptop     1,2,..--> camera num 1,2,.. du pc
+						 //par app droidcam pour camera android
+	While True:
+	success, pic =capture.read()
+	
+	cv2.imshow ('Hand tracker', pic)
+	if cv2.waitKey(5) 
+		break
+
